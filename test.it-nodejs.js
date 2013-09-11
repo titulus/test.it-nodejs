@@ -9,7 +9,7 @@ function nodeConsole(){
 
     var prefix = [];
 
-    function _print(){
+    function _print(entity){
         if (entity.type==="group") {
                 _group(entity);
             } else if (entity.type==="test") {
