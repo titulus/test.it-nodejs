@@ -1,5 +1,7 @@
-test.it - node.js output module
+test.it - node.js
 ===================
+
+node.js output module for test.it framework
 
 ## Install
 ```
