@@ -22,8 +22,8 @@ function nodeConsole(){
     this.print = _print;
 
     function _error(error){
-        console.log('%s%s%s%s: %s',prefix.join('')+'  '+normal,orange,error.type,normal,error.message);
-        prefix.push(orange+'  >');
+        console.log('%s%s%s%s: %s',prefix.join('')+' '+normal,orange,error.type,normal,error.message);
+        prefix.push(orange+' >');
         // console.log(prefix+'.'+normal, error.stack.split(/\n/).length)
         var stack = error.stack.split(/\n/)
         for (var i in stack) {
@@ -66,7 +66,9 @@ function nodeConsole(){
             if (test.description) console.log(prefix.join('')+' '+normal,test.description);
 
             if (test.error) {
-                _error(test.error)
+                prefix.push(' ');
+                _error(test.error);
+                prefix.pop();
             } else {
                 if (test.trace) {
                     console.log(prefix.join('')+' '+blue,'trace');
