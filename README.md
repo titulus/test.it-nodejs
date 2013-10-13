@@ -1,7 +1,7 @@
 testit-nodejs
 ===================
 
-node.js output module for test.it framework
+node.js output module for [test.it](https://github.com/titulus/testit) framework
 
 ## Install
 + First: install framework and output module
@@ -22,7 +22,7 @@ test.printer(nodeConsole);
 (test = require('test.it')).printer(require('test.it-nodejs'));
     ```
     
-    **Info:** *Output module is not required!*
+    **Info:** *Output module is not required! You can use testit without any output at all.*
 
 ## Example
 ![console](https://f.cloud.github.com/assets/3748976/1114018/937bf36e-1a0d-11e3-8a37-5450efca4362.png)
