@@ -1,6 +1,6 @@
   {
   "name": "test.it-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nodejs output module for test.it framework",
   "main": "test.it-nodejs.min.js",
   "repository": {
