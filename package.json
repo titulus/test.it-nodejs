@@ -1,14 +1,14 @@
   {
-  "name": "testit-nodejs",
+  "name": "test.it-nodejs",
   "version": "1.0.0",
-  "description": "nodejs output module for testit framework",
-  "main": "testit-nodejs.min.js",
+  "description": "nodejs output module for test.it framework",
+  "main": "test.it-nodejs.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/titulus/testit-nodejs.git"
+    "url": "https://github.com/titulus/test.it-nodejs.git"
   },
   "bugs": {
-    "url": "https://github.com/titulus/testit-nodejs/issues"
+    "url": "https://github.com/titulus/test.it-nodejs/issues"
   },
   "author": "Titulus Desiderio",
   "license": "MIT"
