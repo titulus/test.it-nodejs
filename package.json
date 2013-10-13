@@ -2,7 +2,7 @@
   "name": "testit-nodejs",
   "version": "1.0.0",
   "description": "nodejs output module for testit framework",
-  "main": "testit-nodejs.js",
+  "main": "testit-nodejs.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/titulus/testit-nodejs.git"
