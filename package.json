@@ -1,4 +1,4 @@
-{
+  {
   "name": "testit-nodejs",
   "version": "1.0.0",
   "description": "nodejs output module for testit framework",
@@ -10,9 +10,6 @@
   "bugs": {
     "url": "https://github.com/titulus/testit-nodejs/issues"
   },
-  "keywords": [
-    "testit"
-  ],
   "author": "Titulus Desiderio",
   "license": "MIT"
 }
