@@ -1,4 +1,4 @@
-test.it - node.js
+testit-nodejs
 ===================
 
 node.js output module for test.it framework
@@ -9,6 +9,7 @@ node.js output module for test.it framework
 npm install 'test.it'
 npm install 'test.it-nodejs'
     ```
+
     **Hint:** *you can use [`-g`](https://npmjs.org/doc/install.html) flag to install them globally*
 + Second: add core of framework and output module, set it as default printer
     ```javascript
@@ -20,6 +21,7 @@ test.printer(nodeConsole);
     ```javascript
 (test = require('test.it')).printer(require('test.it-nodejs'));
     ```
+    
     **Info:** *Output module is not required!*
 
 ## Example
