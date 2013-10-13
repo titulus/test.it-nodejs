@@ -1,25 +1,25 @@
 testit-nodejs
 ===================
 
-node.js output module for [test.it](https://github.com/titulus/testit) framework
+node.js output module for [testit](https://github.com/titulus/testit) framework
 
 ## Install
 + First: install framework and output module
     ```bash
-npm install 'test.it'
-npm install 'test.it-nodejs'
+npm install 'testit'
+npm install 'testit-nodejs'
     ```
 
     **Hint:** *you can use [`-g`](https://npmjs.org/doc/install.html) flag to install them globally*
 + Second: add core of framework and output module, set it as default printer
     ```javascript
-test = require('test.it');
-nodeConsole = require('test.it-nodejs');
+test = require('testit');
+nodeConsole = require('testit-nodejs');
 test.printer(nodeConsole);
     ```
     btw you can use this construction:
     ```javascript
-(test = require('test.it')).printer(require('test.it-nodejs'));
+(test = require('testit')).printer(require('testit-nodejs'));
     ```
     
     **Info:** *Output module is not required! You can use testit without any output at all.*
